@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Women Security Portal</title>
+<title>Women Personel Portal</title>
 <script>
-   let userCode = prompt("Enter Security Code:");
-   if(userCode !== "9999"){  // change 9999 to your code
-       alert("Wrong Code!");
-       window.location.href="https://www.google.com";
-   }
+    let usercode = prompt("Enter security code:");
+    if(usercode !== "9999"){  // change 9999 to your code
+        alert("Wrong code!");
+        window.location.href="https://www.google.com";
+    }
 </script>
 <style>
-       body{
-           font-family: Arial;
-           background-color: #fafafa;
-           padding: 20px;
-       }
-       h1{
-           color: #d11a5f;
-       }
-       button{
-           margin: 8px;
-           padding: 10px 15px;
-           border: none;
-           background-color: #d11a5f;
-           color: white;
-           border-radius: 6px;
-           cursor: pointer;
-       }
-       button:hover{
-           background-color: #aa144a;
-       }
-       #content-box{
-           margin-top: 20px;
-           padding: 15px;
-           background-color: white;
-           border-radius: 10px;
-           box-shadow: 0px 0px 5px #999;
-           min-height: 200px;
-       }
-</style>
+    body{
+        font-family: Arial;
+        background-color: white ;
+        padding: 20px;
+    }
+    h1{
+        color: palevioletred ;
+    }
+    button{
+        margin: 8px;
+        padding: 10px 15px;
+        border: none;
+        background-color: palevioletred;
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: #aa144a;
+    }
+    #content-box{
+        margin-top: 20px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px #999;
+        min-height: 200px;
+    }
+</style>    
 </head>
 <body>
-<h1>Women Security Application</h1>
-<p><b>Goal:</b> A platform to support women's safety, communication, and health needs.</p>
+<h1>Long Distance Communication</h1>
+<p><b>Goal:</b> A platform to support women communication , safety and health needs</p>
 <!-- Feature Buttons -->
-<button id="homeBtn">Home</button>
-<button id="camBtn">Camera</button>
-<button id="locBtn">Location</button>
-<button id="chatBtn">Chat</button>
-<button id="notesBtn">Notes</button>
-<button id="remBtn">Reminder</button>
-<button id="periodBtn">Period Tracker</button>
-<!-- Display Output -->
-<div id="content-box"></div>
-<script src="script.js"></script>
+ <button id="homeBtn">Home</button>
+ <button id="camBtn">camera</button>
+ <button id="locBtn">Location</button>
+ <button id="chatBtn">Chat</button>
+ <button id="contBtn">Contact</Button>
+ <button id="notesBtn">Notes</button>
+ <button id="remBtn">Reminder</button>
+ <button id="gallBtn">Gallery</button>
+ <button id="shareBtn">Share</button>
+ <button id="periodBtn">Period Tracker</button>
+ <!-- Display output -->
+  <div id="content-box"></div>
+  <script src="script.js"></script>   
 </body>
 </html>
